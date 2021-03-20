@@ -33,8 +33,9 @@ class LoginViewController: UIViewController {
             Utilities.shared.saveUserDefault(userCredential: userCredentials, objectKey: userLoginKey)
         }
         let orderVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "OrderViewController") as? OrderViewController
-        orderVC?.modalPresentationStyle = .fullScreen
-        self.present(orderVC ?? UIViewController(), animated: true, completion: nil)
+        let navigation = UINavigationController(rootViewController: orderVC ?? UIViewController())
+        navigation.modalPresentationStyle = .fullScreen
+        self.present(navigation, animated: true, completion: nil)
     }
     
     @IBAction func rememberButtonTapped(_ sender: UIButton) {

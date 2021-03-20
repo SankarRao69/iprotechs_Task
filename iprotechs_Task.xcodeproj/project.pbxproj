@@ -155,7 +155,6 @@
 		01067B202605CFF000B91D11 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				01484A042604BF5900323668 /* Info.plist */,
 				014849FF2604BF5900323668 /* Assets.xcassets */,
 				01484A1D2604DA9F00323668 /* OrderDetail.json */,
 			);
@@ -183,6 +182,7 @@
 		014849F52604BF5600323668 /* iprotechs_Task */ = {
 			isa = PBXGroup;
 			children = (
+				01484A042604BF5900323668 /* Info.plist */,
 				01067B202605CFF000B91D11 /* Resources */,
 				01067B1F2605CFDA00B91D11 /* Utilities */,
 				01067B1E2605CFC400B91D11 /* Models */,

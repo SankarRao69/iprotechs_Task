@@ -25,6 +25,7 @@ class OrderViewController: UIViewController {
     
     @IBAction func logoutButtonTapped(_ sender: UIBarButtonItem) {
         Utilities.shared.removeAllUserDefaultsData()
+        Utilities.shared.removeObjectBasedOnKey(objectKey: userLoginKey)
         let loginVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "LoginViewController") as? LoginViewController
         loginVC?.modalPresentationStyle = .fullScreen
         self.present(loginVC ?? UIViewController(), animated: true, completion: nil)
