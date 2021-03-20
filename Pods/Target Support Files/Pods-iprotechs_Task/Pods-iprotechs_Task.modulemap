@@ -1,0 +1,6 @@
+framework module Pods_iprotechs_Task {
+  umbrella header "Pods-iprotechs_Task-umbrella.h"
+
+  export *
+  module * { export * }
+}
