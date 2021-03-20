@@ -16,18 +16,12 @@ class OrderDetailsPopupVC: UIViewController {
 
     @IBOutlet weak var popupBGView: UIView!
     @IBOutlet weak var cancelButton: UIButton!
-    
     @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var bgImageView: UIImageView!
-    
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var orderDateTextField: UITextField!
-    
     @IBOutlet weak var adrressTextField: UITextField!
-    
     @IBOutlet weak var phoneNumberTextField: UITextField!
-    
     @IBOutlet weak var orderNumberTextField: UITextField!
     
     var productDetails : OrderDetail.Order?

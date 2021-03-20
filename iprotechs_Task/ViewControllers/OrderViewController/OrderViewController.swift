@@ -14,7 +14,6 @@ class OrderViewController: UIViewController {
     @IBOutlet weak var customerNameLabel: UILabel!
     var orderDetailData: OrderDetail?
     var totalValue:CGFloat = 0.0
-    
     @IBOutlet weak var placeOrderButton: UIButton!
     
     override func viewDidLoad() {

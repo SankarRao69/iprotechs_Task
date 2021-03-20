@@ -58,6 +58,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01067B152605CEF600B91D11 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				014849F62604BF5600323668 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		01067B162605CF0C00B91D11 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				014849FC2604BF5600323668 /* Main.storyboard */,
+				01484A012604BF5900323668 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		01067B172605CF2D00B91D11 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				01067B1C2605CF9900B91D11 /* OrderDetailsPopupVC */,
+				01067B1A2605CF6800B91D11 /* OrderViewController */,
+				01067B192605CF5400B91D11 /* RegisterViewController */,
+				01067B182605CF4000B91D11 /* LoginViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		01067B182605CF4000B91D11 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01484A0F2604C7B000323668 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		01067B192605CF5400B91D11 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01484A122604C7FC00323668 /* RegisterViewController.swift */,
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		01067B1A2605CF6800B91D11 /* OrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01067B1B2605CF7F00B91D11 /* TableViewCells */,
+				01484A1A2604D32300323668 /* OrderViewController.swift */,
+			);
+			path = OrderViewController;
+			sourceTree = "<group>";
+		};
+		01067B1B2605CF7F00B91D11 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				01484A152604CB3200323668 /* OrdersTableViewCell.swift */,
+				01484A162604CB3200323668 /* OrdersTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		01067B1C2605CF9900B91D11 /* OrderDetailsPopupVC */ = {
+			isa = PBXGroup;
+			children = (
+				01067B0926058AF600B91D11 /* OrderDetailsPopupVC.swift */,
+			);
+			path = OrderDetailsPopupVC;
+			sourceTree = "<group>";
+		};
+		01067B1D2605CFB100B91D11 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				01484A202604DDCB00323668 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		01067B1E2605CFC400B91D11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01067B122605A32900B91D11 /* OrderDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01067B1F2605CFDA00B91D11 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				01067B0F2605A2D700B91D11 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		01067B202605CFF000B91D11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01484A042604BF5900323668 /* Info.plist */,
+				014849FF2604BF5900323668 /* Assets.xcassets */,
+				01484A1D2604DA9F00323668 /* OrderDetail.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		014849EA2604BF5600323668 = {
 			isa = PBXGroup;
 			children = (
@@ -79,21 +183,13 @@
 		014849F52604BF5600323668 /* iprotechs_Task */ = {
 			isa = PBXGroup;
 			children = (
-				014849F62604BF5600323668 /* AppDelegate.swift */,
-				01484A0F2604C7B000323668 /* LoginViewController.swift */,
-				01484A122604C7FC00323668 /* RegisterViewController.swift */,
-				01484A1A2604D32300323668 /* OrderViewController.swift */,
-				01067B0926058AF600B91D11 /* OrderDetailsPopupVC.swift */,
-				01484A152604CB3200323668 /* OrdersTableViewCell.swift */,
-				01484A162604CB3200323668 /* OrdersTableViewCell.xib */,
-				01484A202604DDCB00323668 /* Constants.swift */,
-				01067B122605A32900B91D11 /* OrderDetailModel.swift */,
-				01067B0F2605A2D700B91D11 /* Utilities.swift */,
-				01484A1D2604DA9F00323668 /* OrderDetail.json */,
-				014849FC2604BF5600323668 /* Main.storyboard */,
-				014849FF2604BF5900323668 /* Assets.xcassets */,
-				01484A012604BF5900323668 /* LaunchScreen.storyboard */,
-				01484A042604BF5900323668 /* Info.plist */,
+				01067B202605CFF000B91D11 /* Resources */,
+				01067B1F2605CFDA00B91D11 /* Utilities */,
+				01067B1E2605CFC400B91D11 /* Models */,
+				01067B1D2605CFB100B91D11 /* Constants */,
+				01067B172605CF2D00B91D11 /* ViewControllers */,
+				01067B162605CF0C00B91D11 /* StoryBoard */,
+				01067B152605CEF600B91D11 /* AppDelegate */,
 			);
 			path = iprotechs_Task;
 			sourceTree = "<group>";

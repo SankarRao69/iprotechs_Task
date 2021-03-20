@@ -11,10 +11,7 @@ import UIKit
 let userLoginKey = "loginData"
 let userAlertMessageForFields = "Please enter all fields *"
 
-
 //*********************************Constants**********************//
-
-
 
 extension UIViewController {
     func showAlertToUser(viewcontroller: UIViewController,message: String){
@@ -46,6 +43,3 @@ extension UIViewController {
     }
     
 }
-
-
-

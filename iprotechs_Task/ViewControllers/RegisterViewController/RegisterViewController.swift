@@ -10,14 +10,11 @@ import UIKit
 class RegisterViewController: UIViewController {
 
     @IBOutlet weak var userNameTextField: UITextField!
-    
     @IBOutlet weak var passwordTextField: UITextField!
-    
-    
     @IBOutlet weak var conformPasswordTextField: UITextField!
-    
     @IBOutlet weak var signUPButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         signUPButton.layer.cornerRadius = 5
